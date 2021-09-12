@@ -69,3 +69,10 @@ print(a.dot(b))
 dot() 函数计算两个数组的点积。它返回的是一个标量（只有大小没有方向的一个值）而不是数组。
 '''
 
+# dot, sum, min, max, cumsum  这些是数组的特殊运算符
+a = np.arange(10)
+
+print(a.sum()) # >>>45
+print(a.min()) # >>>0
+print(a.max()) # >>>9
+print(a.cumsum()) # >>>[ 0  1  3  6 10 15 21 28 36 45]
